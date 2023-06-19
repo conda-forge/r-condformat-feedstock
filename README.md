@@ -1,11 +1,11 @@
-About r-condformat
-==================
+About r-condformat-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-condformat-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/zeehio/condformat
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-condformat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Apply and visualize conditional formatting to data frames in R. It renders a data frame with cells formatted according to criteria defined by rules, using a tidy evaluation syntax. The table is printed either opening a web browser or within the 'RStudio' viewer if available. The conditional formatting rules allow to highlight cells matching a condition or add a gradient background to a given column. This package supports both 'HTML' and 'LaTeX' outputs in 'knitr' reports, and exporting to an 'xlsx' file.
 
