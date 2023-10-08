@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/condformat_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/condformat/condformat_{{ version }}.tar.gz
-  sha256: 26cfee9646af7d1ff1dbcf667359467133cef249d411b8247933f5f2197cdbc7
+  sha256: e2b809c7288fefd7d216d47401693edf177eeffd4491b2c12b26ba9d1417d45b
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
